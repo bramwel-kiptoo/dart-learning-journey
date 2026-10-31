@@ -7,6 +7,10 @@ void main(){
   andOperator();
   orOperator();
   notOperator();
+
+  //output true
+  //output true
+  //output true
 }
 
 
@@ -15,17 +19,16 @@ void andOperator(){
   bool hasAccount = true;
 
   print(age >= 18 && hasAccount);
-  //output true
 }
 void orOperator(){
   bool hasEmail = false;
   bool hasPhone = true;
 
   print(hasEmail || hasPhone);
-  //output true
+
 }
 void notOperator(){
   bool isLoggedIn = false;
   print(!isLoggedIn);
-  //output true
+
 }
