@@ -14,5 +14,7 @@ void main(){
     print("Grade C");
   } else {
     print("Grade D");
+
+    //output Grade B
   }
 }
